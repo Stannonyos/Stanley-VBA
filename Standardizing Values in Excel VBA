@@ -1,0 +1,10 @@
+Private Sub CommandButton1_Click()
+Dim i As Integer
+Dim s As Double
+Dim m As Double
+s = Application.WorksheetFunction.StDev(Range("a1:a482"))
+m = Application.WorksheetFunction.Average(Range("a1:a482"))
+For i = 1 To 482
+Cells(i, 2) = (Cells(i, 1) - m) / s
+Next i
+End Sub
