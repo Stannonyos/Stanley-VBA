@@ -1,5 +1,5 @@
 Private Sub CommandButton1_Click()
-Dim i As Integer
+Dim i As Double
 Dim s As Double
 Dim m As Double
 s = Application.WorksheetFunction.StDev(Range("a1:a482"))
