@@ -1,2 +1,1 @@
-# Stanley Nyoro
-Standardizing Values using Excel VBA
+Standardizing Values using Excel Macros by using mean and standard deviation.
