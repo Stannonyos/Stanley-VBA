@@ -1,1 +1,1 @@
-Standardizing Values using Excel Macros by using mean and standard deviation.
+Standardizing Values using Excel Macros by using mean and standard deviation. The Z-scores are very useful when detecting outliers in the data. For small sample a deviation from the of 2 standard deviations from the mean (95%) and for larger samples a standard deviation of 3 standard deviation from the mean (99%) can be used.
