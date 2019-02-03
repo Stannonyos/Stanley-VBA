@@ -2,7 +2,7 @@ Option Explicit
 Private Sub generate_Click()
 Dim i As Integer
 For i = 2 To 500
-Cells(i, 1) = Application.WorksheetFunction.RandBetween(10, 1289)
+  Cells(i, 1) = Application.WorksheetFunction.RandBetween(10, 1289) 'Randomization i.e. generate possible values between 10 and 1289
 Next i
 End Sub
 
