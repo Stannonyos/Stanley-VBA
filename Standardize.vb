@@ -7,7 +7,7 @@ Next i
 End Sub
 
 Private Sub standardize_Click()
-Dim i As Double
+Dim i As Integer
 Dim s As Double
 Dim m As Double
 s = Application.WorksheetFunction.StDev(Range("a1:a500"))
